@@ -2,16 +2,15 @@
 
 The goal of this project is to put what you've learned to use to:
 
-* [Write a project proposal and get it approved by an instructor](#proposal)
+* [Create a project proposal and get it approved by an instructor](#proposal)
 * [Follow an agile development workflow](#agile)
 * [Create and deploy a web app](#create-deploy)
-* [Complete a write-up of the project](#write-up)
 * [Add all three of these to an online portfolio](#portfolio)
 * [Present your work to the class](#present)
 
 <a id="proposal"></a>
 
-## Write a project proposal and get it approved by an instructor
+## Create a project proposal and get it approved by an instructor
 
 Your proposal should have
 
@@ -24,15 +23,18 @@ Your proposal should have
 
 There are some constraints around what technologies MUST be present in your app. Check out [Create and deploy a web app](#create-deploy) below.
 
-### Example Ideas
+### Sample Ideas
 
-* A Tetris Game, a blackjack game, a battleship game, etc.
+* Games are always populars. A Tetris Game, a blackjack game, a battleship game, a [space shooter](http://mmarsella.github.io/Block-Blaster/), a [Pac-Man clone](https://dogparkapp.herokuapp.com/game), etc. 
 * A quiz to test your JavaScript knowledge.
 * A food library, similar to the [Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library), to keep track of your daily caloric/nutrition intake.
 * A documentation aggregator that allows developers to easily search through documentation.
 * A flash card style interview prep tool.
 * A ping-pong scheduling/scoring system.
 * A [Sudoku Solver](http://mherman.org/sudoku-solver/).
+* Like music? Here's a [guitar chord practicing tool](http://shastings517.github.io/chordRep/).
+
+Want more ideas? Take a look at what students made in [g19](https://github.com/gSchool/g19-projects/blob/master/unit-1/projects.md).
 
 <a id="agile"></a>
 
@@ -79,14 +81,6 @@ Your web app should:
 * Workflow
     * Use wireframes to create your layouts before you build them
     * Use a feature-branch workflow for your user stories
-    * Do some build-tooling with something like Gulp
-
-<a id="write-up"></a>
-
-## Complete a write-up of the project
-
-* Describe what the project is, the technologies you used, and some information about the workflow you followed.
-* 1-2 tight paragraphs
 
 <a id="portfolio"></a>
 
@@ -101,8 +95,9 @@ Your web app should:
 ## Present your work to the class
 
 * Be prepared to spend ~5 minutes presenting your work to the class.
+* Your presentation should describe what the project is, the technologies you used, and some information about the workflow you followed.
 * Make a Pull Request against this repository.
 
 ---
 
-This is essentially a mini-capstone, as is a really good preview of how your final projects will go. You will have approximately 20-25 hours of class time to work on this. **It will not be enough time to do a good job on this project**. Plan on spending extra time outside of class. This is a Big Deal Week, and you should put maximum effort into making it successful. You can and should use your classmates and your instructors as learning resources, but this should be your own work.
+This is essentially a mini-capstone, as is a really good preview of how your final projects will go. This is a Big Deal Week, and you should put maximum effort into making it successful. You can and should use your classmates and your instructors as learning resources, but this should be your own work.
