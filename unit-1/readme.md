@@ -96,7 +96,7 @@ Your web app should:
 
 * Be prepared to spend ~5 minutes presenting your work to the class.
 * Your presentation should describe what the project is, the technologies you used, and some information about the workflow you followed.
-* Make a Pull Request against this repository.
+* Make a Pull Request against this repository with a link to your project in `unit-1/projects.md`.
 
 ---
 
