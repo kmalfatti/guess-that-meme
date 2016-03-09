@@ -3,9 +3,7 @@
 The goal of this project is to put what you've learned to use to:
 
 * [Create a project proposal and get it approved by an instructor](#proposal)
-* [Follow an agile development workflow](#agile)
 * [Create and deploy a web app](#create-deploy)
-* [Add all three of these to an online portfolio](#portfolio)
 * [Present your work to the class](#present)
 
 <a id="proposal"></a>
@@ -35,20 +33,6 @@ There are some constraints around what technologies MUST be present in your app.
 * Like music? Here's a [guitar chord practicing tool](http://shastings517.github.io/chordRep/).
 
 Want more ideas? Take a look at what students made in [g19](https://github.com/gSchool/g19-projects/blob/master/unit-1/projects.md).
-
-<a id="agile"></a>
-
-## Follow an agile development workflow
-
-Let's put Pivotal Tracker into action!
-
-* Your instructors will create a [Pivotal Tracker](http://www.pivotaltracker.com) account for you
-    * Once your account is created, do a password reset in Pivotal Tracker to gain access
-    * Create a new project in Pivotal Tracker for this assignment, and name it "GXX - Full Name" (using your cohort number and your name)
-    * Note that we will delete these projects when we're done
-* Add your stories to your Pivotal Tracker project
-
-Most of your first day working on the project should be spent on your user stories.
 
 <a id="create-deploy"></a>
 
@@ -82,19 +66,12 @@ Your web app should:
     * Use wireframes to create your layouts before you build them
     * Use a feature-branch workflow for your user stories
 
-<a id="portfolio"></a>
-
-## Add all three of these to an online portfolio
-
-* Create a portfolio on the [student portal](http://students.galvanize.com)
-* Link to your final deployed site and your write-up
-* This will be the start of your portfolio as a web developer
-
 <a id="present"></a>
 
 ## Present your work to the class
 
-* Be prepared to spend ~5 minutes presenting your work to the class.
+* Be prepared to spend ~5 minutes presenting your work to the class on Friday. 
+* On Thursday, be prepared to go through a practice run of your presentation with an instructor.
 * Your presentation should describe what the project is, the technologies you used, and some information about the workflow you followed.
 * Make a Pull Request against this repository with a link to your project in `unit-1/projects.md`.
 
