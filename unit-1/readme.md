@@ -23,7 +23,7 @@ There are some constraints around what technologies MUST be present in your app.
 
 ### Sample Ideas
 
-* Games are always populars. A Tetris Game, a blackjack game, a battleship game, a [space shooter](http://mmarsella.github.io/Block-Blaster/), a [Pac-Man clone](https://dogparkapp.herokuapp.com/game), etc. 
+* Games are always popular. A Tetris Game, a blackjack game, a battleship game, a [space shooter](http://mmarsella.github.io/Block-Blaster/), a [Pac-Man clone](https://dogparkapp.herokuapp.com/game), etc. 
 * A quiz to test your JavaScript knowledge.
 * A food library, similar to the [Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library), to keep track of your daily caloric/nutrition intake.
 * A documentation aggregator that allows developers to easily search through documentation.
@@ -46,8 +46,8 @@ Your web app should:
     * Include some embedded media (images, audio, video, canvas)
     * Optionally, use a templating engine
 * CSS
-    * Use either SASS or a styling framework like Bootstrap
-        * If you are using Bootstrap, please consider theming with something like bootswatch, customizing the download with SASS, or a [customizer](http://getbootstrap.com/customize/)
+    * Use your own style rules, in combination with a styling framework like Bootstrap
+        * If you are using Bootstrap, please consider theming with something like bootswatch, or a [customizer](http://getbootstrap.com/customize/)
     * Be well-indented and clean
     * Split code into separate files where appropriate
     * Responsive design optional but strongly encouraged
