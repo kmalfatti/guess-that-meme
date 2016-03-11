@@ -61,7 +61,7 @@ Your web app should:
 * User Input
     * Use at least one web form
     * Validate user input
-    * Persist user data using something like LocalStorage
+    * Optionally, persist user data using something like LocalStorage
 * Workflow
     * Use wireframes to create your layouts before you build them
     * Use a feature-branch workflow for your user stories
