@@ -1,0 +1,92 @@
+#main {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 30px;
+}
+
+body{
+  background-image: url(https://www.planwallpaper.com/static/images/website-background-pattern.jpg);
+  background-size: 1200px 1000px;
+  text-align: center;
+}
+
+ul {
+  background-color: #E8E8E8;
+}
+
+form {
+  padding-top: 19px;
+}
+
+#announce {
+  margin-top: -10px;
+}
+
+#correct {
+  padding-top: 3px;
+}
+
+p {
+  font-size: 30px;
+}
+
+#current {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#lifetime {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+button {
+  border: 1px solid black;
+  background-color: #E8E8E8;
+  border-radius: 5px;
+}
+
+input {
+  border: 1px solid black;
+}
+
+#img {
+  padding-top: 15px;
+}
+
+.trophy {
+  padding-top: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  opacity: .3;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  margin: 0 auto;
+}
+
+.set {
+  padding: 20px;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  box-shadow: 0px;
+  display: none;
+  padding-top: 5px;
+}
+
+#notrophy {
+  height: 550px;
+  width: 450px;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+
+
+
+

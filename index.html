@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess That Meme</title>
+  <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+  <h1>Guess That Meme!</h1>
+  <h5>Enter the name or phrase associated with that meme.</h5>
+
+  <ul class="nav nav-tabs nav-justified">
+    <li><a href="#scoreboard" data-toggle="tab">Score</a></li>
+    <li class="active"> <a href="#game" data-toggle="tab">Game</a></li>
+    <li><a href="#trophies" data-toggle="tab">Trophies</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane fade in active" id="game">
+      <div class="row">
+        <div class="col-xs-4">
+          <h5 class="correct">Correct: 0</h5>
+          <h5 class="incorrect">Incorrect: 0</h5>
+        </div>
+
+        <div class="col-xs-4">
+          <form>
+            <input id="guess" type="text" autofocus="" autocomplete="off">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        
+        <div class="col-xs-4" id="announce">
+          <h3 class="action">Good Luck!</h3>
+          <h5 id="answer"> </h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" id="pic"></div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="scoreboard">
+      <h3 id="current">Current Score</h3>
+      <p class="correct">Correct: 0</p>
+      <p class="incorrect">Incorrect: 0</p>
+      <br>
+      <h3 id="lifetime">Lifetime Score</h3>
+      <p class="score" id="lifeCorrect">Correct: 0</p>
+      <p class="score" id="lifeIncorrect">Incorrect: 0</p>
+    </div>
+
+    <div class="tab-pane fade" id="trophies">
+      <div>
+        <img id="notrophy" src="http://www.quickmeme.com/img/01/0149f3c3306cc271a7907059fa47e125edf246fecf298c2981f55154e4e4adee.jpg">
+      </div>
+
+      <div class="set">
+        <li>Get a total of 5 correct.</li>
+        <div class="trophy" id="bronze">
+        </div>
+        <img src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Trophy-and-Medals-PNG/Bronze_Trophy_Cup_Award_Transparent_PNG_Clip_Art_Image.png?m=1457043166" class="img" id="bronzeImg">
+      </div>
+
+      <div class="set">
+        <li>Get a total of 25 correct.</li>
+        <div class="trophy" id="silver">
+        </div>
+        <img src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Trophy-and-Medals-PNG/Silver_Trophy_Cup_Award_Transparent_PNG_Clip_Art_Image.png?m=1457043175" class="img" id="silverImg">
+      </div>
+
+      <div class="set">
+        <li>Get a total of 100 correct.</li>
+        <div class="trophy" id="gold">
+        </div>
+        <img src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Trophy-and-Medals-PNG/Gold_Trophy_Cup_Award_Transparent_PNG_Clip_Art_Image.png?m=1457043162" class="img" id="goldImg">
+      </div>
+
+      <div class="set">
+        <li>Secret Trophy.</li>
+        <div class="trophy" id="troll">
+        </div>
+        <img src="https://openclipart.org/image/2400px/svg_to_png/130795/Trollface.png" class="img" id="trollImg">
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
